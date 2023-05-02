@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
+
+.order-history {
+    margin: 100px 0 0 0;
+}
+
+.order-history h2 {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 10px 30px;
+}
+
+.order-history div h5 {
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    padding: 20px 0 0 30px;
+    border-top: 1px solid var(--primary);
+}
+
+.card Link img {
+    height: 234;
+    width: 234;
+}
+
+.history {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Tablet devices (768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        flex: 1 0 calc(50% - 20px);
+        /* 50% width minus margins */
+        max-width: calc(50% - 20px);
+    }
+}
+
+/* Mobile devices (767px and below) */
+@media screen and (max-width: 480px) {
+    .history {
+        flex: 1 0 calc(100% - 20px);
+        /* 100% width minus margins */
+        max-width: calc(100% - 20px);
+        font-size: 16px;
+    }
+
+    .order-history h2 {
+        font-size: 22px;
+    }
+
+    .order-history div h5 {
+        font-size: 18px;
+    }
+}

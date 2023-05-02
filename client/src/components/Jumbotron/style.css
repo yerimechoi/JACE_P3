@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
+
+.success-children {
+    font-family: 'Barlow', sans-serif;
+    color: var(--primary);
+    margin-top: 260px;
+}
+
+.success-children h2,
+.success-children h4 {
+    font-family: 'Barlow', sans-serif;
+    padding: 0 15px;
+}

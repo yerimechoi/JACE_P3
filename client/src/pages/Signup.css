@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap');
+
+.links-to-go {
+    color: var(--primary);
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.links-to-go:hover {
+    text-decoration: none;
+    color: var(--error);
+}
+
+.signup {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 400px;
+    padding: 30px 0 60px 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    font-family: 'Barlow', sans-serif;
+}
+
+label {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.submit {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: var(--secondary);
+    padding: 10px 25px;
+}
+
+.submit:hover {
+  background-color: var(--tertiary);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+/* Tablet devices (768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    label {
+        font-size: 18px;
+    }
+
+    .signup {
+        padding: 100px 0 30px 0;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 5px 5px;
+    }
+
+    .signup-padding {
+        padding-bottom: 34px;
+    }
+
+    .login-padding {
+        padding-bottom: 182px;
+    }
+}
+
+/* Phone view */
+@media (max-width: 480px) {
+    .links-to-go {
+        font-size: 14px;
+    }
+
+    .signup {
+        width: 300px;
+        padding: 60px 0 30px 0;
+        font-size: 22px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+
+    .submit {
+        font-size: 16px;
+        padding: 7px 0px;
+        width: 300px;
+    }
+
+    .signup-padding {
+        padding-bottom: 34px;
+    }
+
+    .login-padding {
+        padding-bottom: 134px;
+    }
+}

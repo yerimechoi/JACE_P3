@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+.footer {
+  background-color: var(--secondary);
+  padding: 0px 0 10px 0;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.footer-content {
+  color: var(--primary);
+  align-items: center;
+  text-align: center;
+  padding: 60px 0 0 0;
+  background-image: url(../../../src/assets/JACE-logo.png);
+  background-size: 125px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.table-number {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Barlow', sans-serif;
+  margin: 60px 0 0 0;
+}
+
+.footer-content p {
+  padding-top: 10px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.footer-content a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--primary);
+  font-family: 'Barlow', sans-serif;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin-top: 75px;
+  }
+
+  .footer-content h2 {
+    font-size: 24px;
+  }
+
+  .footer-content p {
+    font-size: 16px;
+  }
+}
+
+/* Phone view */
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-top: 50px;
+  }
+
+  .footer-content h2 {
+    font-size: 20px;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+  }
+}
